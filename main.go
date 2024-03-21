@@ -26,6 +26,7 @@ func main() {
 
 	// Menetapkan rute untuk handler buku
 	routes.SetupBookRoutes(app)
+	routes.SetupAnggotaRoutes(app)
 
 	// Menjalankan server Fiber
 	app.Listen(":3000")
